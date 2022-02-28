@@ -17,7 +17,8 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        Double FirstValue, TwoValue, Result;
+        int FirstValue, TwoValue;
+        double Result;
 
 
         private void button1_Click(object sender, EventArgs e)
@@ -29,9 +30,9 @@ namespace WindowsFormsApp1
             /*--------------------Вывод ответа--------------------------*/
             try //try-catch
             {
-                FirstValue = Convert.ToDouble(textBox1.Text);
-                TwoValue = Convert.ToDouble(textBox2.Text);
-                Result = FirstValue + TwoValue;
+                FirstValue = Int32.Parse(textBox1.Text);
+                TwoValue = Int32.Parse(textBox2.Text);
+                Result = Convert.ToDouble(FirstValue+TwoValue);
                 textBox3.Text = Result.ToString();
                 label4.Text = button1.Text;
             }
@@ -61,9 +62,9 @@ namespace WindowsFormsApp1
             /*--------------------Вывод ответа--------------------------*/
             try //try-catch
             {
-                FirstValue = Convert.ToDouble(textBox1.Text);
-                TwoValue = Convert.ToDouble(textBox2.Text);
-                Result = FirstValue - TwoValue;
+                FirstValue = Int32.Parse(textBox1.Text);
+                TwoValue = Int32.Parse(textBox2.Text);
+                Result = Convert.ToDouble(FirstValue - TwoValue);
                 textBox3.Text = Result.ToString();
                 label4.Text = button2.Text;
             }
@@ -93,9 +94,9 @@ namespace WindowsFormsApp1
             /*--------------------Вывод ответа--------------------------*/
             try //try-catch
             {
-                FirstValue = Convert.ToDouble(textBox1.Text);
-                TwoValue = Convert.ToDouble(textBox2.Text);
-                Result = FirstValue * TwoValue;
+                FirstValue = Int32.Parse(textBox1.Text);
+                TwoValue = Int32.Parse(textBox2.Text);
+                Result = Convert.ToDouble(FirstValue * TwoValue);
                 textBox3.Text = Result.ToString();
                 label4.Text = button3.Text;
             }
@@ -125,9 +126,9 @@ namespace WindowsFormsApp1
             /*--------------------Вывод ответа--------------------------*/
             try //try-catch
             {
-                FirstValue = Convert.ToDouble(textBox1.Text);
-                TwoValue = Convert.ToDouble(textBox2.Text);
-                Result = FirstValue / TwoValue;
+                FirstValue = Int32.Parse(textBox1.Text);
+                TwoValue = Int32.Parse(textBox2.Text);
+                Result = Convert.ToDouble(FirstValue / TwoValue);
                 textBox3.Text = Result.ToString();
                 label4.Text = button4.Text;
             }
