@@ -1,0 +1,10 @@
+C:\Users\and20\source\repos\RGR_3\RGR_3\bin\Debug\RGR_3.exe.config
+C:\Users\and20\source\repos\RGR_3\RGR_3\bin\Debug\RGR_3.exe
+C:\Users\and20\source\repos\RGR_3\RGR_3\bin\Debug\RGR_3.pdb
+C:\Users\and20\source\repos\RGR_3\RGR_3\obj\Debug\RGR_3.csprojAssemblyReference.cache
+C:\Users\and20\source\repos\RGR_3\RGR_3\obj\Debug\RGR_3.Form1.resources
+C:\Users\and20\source\repos\RGR_3\RGR_3\obj\Debug\RGR_3.Properties.Resources.resources
+C:\Users\and20\source\repos\RGR_3\RGR_3\obj\Debug\RGR_3.csproj.GenerateResource.cache
+C:\Users\and20\source\repos\RGR_3\RGR_3\obj\Debug\RGR_3.csproj.CoreCompileInputs.cache
+C:\Users\and20\source\repos\RGR_3\RGR_3\obj\Debug\RGR_3.exe
+C:\Users\and20\source\repos\RGR_3\RGR_3\obj\Debug\RGR_3.pdb
